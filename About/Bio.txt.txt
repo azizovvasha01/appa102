@@ -1,1 +1,4 @@
-Aybeniz
+Ad:Aybeniz 
+Soyad:Azizova 
+Yas:20
+Universitet:Azerbaycan Texniki Universitet
