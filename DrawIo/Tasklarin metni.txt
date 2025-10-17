@@ -1,0 +1,4 @@
+1.Verilmis ededin negatifv, pozitiv veya 0 olub olmadığını tapmaq.
+2.Doğum tarixi daxil edilən şəxsin yaşını hesablayan proqramın alqoritminin sxemini çəkin.
+3.Verilmiş n - ədədinin 3-ə və 7-ə bölünüb-bölünməməsini tapın.
+4. n və m ədədləri verilir. Əgər n və m ədədləri hər ikisi cütdürsə n və m ədədlərinin cəmini hesablayın.
