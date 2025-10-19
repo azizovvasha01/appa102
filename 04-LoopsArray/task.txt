@@ -1,0 +1,10 @@
+Task:
+1.Armstrong ededlerini yazan algorithm.(armstronq ədədləri bütün rəqəmlərinin kubunun toplamına bərabər olan ədədlərdir.)
+2.Verilmis userlerden ibaret arreyde yasi 30-dan boyuk ve kicik olanlari consola yazdirmaq.Break-Continue istifade ederek.
+3.Arraye daxil edilən 10 ədədin ededi ortasini tapan proqramın alqoritmi yazmaq.(While loop ile)
+
+
+Verilmiş array: let arr = [203, 19, 2, 13, 196, 86, 35, 77,]
+4.Verilmis array-de en boyuk ededin tapilmasi.
+5.Verilmiş array-in min elementi ilə max elementinin yerini dəyişən proqram tərtib edin
+6.Verilmiş array-in elementlerinden neçəsinin bir rəqəmi, neçəsinin iki rəqəmi, ve necesinin uc reqemi oldugunu tapan algrithm yazmaq
