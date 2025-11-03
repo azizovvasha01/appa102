@@ -1,0 +1,50 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace GenericTypesCollections.GenericTypesCollections
+{
+
+    internal class Librariy<T>
+    {
+        public List<T> Items { get; }
+        public string Name { get; }
+
+        public Librariy(string name)
+        {
+            Name = name;
+            Items = new List<T>();
+        }
+
+        public void Add(T item)
+        {
+            Items.Add(item);
+            Console.WriteLine("Elave edildi");
+        }
+
+        public void Remove(T item)
+        {
+            Items.Remove(item);
+            Console.WriteLine("Silindi");
+        }
+
+        public List<T> GetAll()
+        {
+            return Items;
+        }
+
+        public int Count()
+        {
+            return Items.Count;
+        }
+
+        public T FindByIndex(int index)
+        {
+            if (index >= 0 && index < Items.Count)
+                return Items[index];
+            return default;
+        }
+    }
+}

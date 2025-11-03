@@ -1,0 +1,15 @@
+C:\Users\Nitro\Desktop\appa102\16-GenericTypesCollections\GenericTypesCollections\obj\Debug\net8.0\GenericTypesCollections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nitro\Desktop\appa102\16-GenericTypesCollections\GenericTypesCollections\obj\Debug\net8.0\GenericTypesCollections.AssemblyInfoInputs.cache
+C:\Users\Nitro\Desktop\appa102\16-GenericTypesCollections\GenericTypesCollections\obj\Debug\net8.0\GenericTypesCollections.AssemblyInfo.cs
+C:\Users\Nitro\Desktop\appa102\16-GenericTypesCollections\GenericTypesCollections\obj\Debug\net8.0\GenericTypesCollections.csproj.CoreCompileInputs.cache
+C:\Users\Nitro\Desktop\appa102\16-GenericTypesCollections\GenericTypesCollections\obj\Debug\net8.0\GenericTypesCollections.sourcelink.json
+C:\Users\Nitro\Desktop\appa102\16-GenericTypesCollections\GenericTypesCollections\bin\Debug\net8.0\GenericTypesCollections.exe
+C:\Users\Nitro\Desktop\appa102\16-GenericTypesCollections\GenericTypesCollections\bin\Debug\net8.0\GenericTypesCollections.deps.json
+C:\Users\Nitro\Desktop\appa102\16-GenericTypesCollections\GenericTypesCollections\bin\Debug\net8.0\GenericTypesCollections.runtimeconfig.json
+C:\Users\Nitro\Desktop\appa102\16-GenericTypesCollections\GenericTypesCollections\bin\Debug\net8.0\GenericTypesCollections.dll
+C:\Users\Nitro\Desktop\appa102\16-GenericTypesCollections\GenericTypesCollections\bin\Debug\net8.0\GenericTypesCollections.pdb
+C:\Users\Nitro\Desktop\appa102\16-GenericTypesCollections\GenericTypesCollections\obj\Debug\net8.0\GenericTypesCollections.dll
+C:\Users\Nitro\Desktop\appa102\16-GenericTypesCollections\GenericTypesCollections\obj\Debug\net8.0\refint\GenericTypesCollections.dll
+C:\Users\Nitro\Desktop\appa102\16-GenericTypesCollections\GenericTypesCollections\obj\Debug\net8.0\GenericTypesCollections.pdb
+C:\Users\Nitro\Desktop\appa102\16-GenericTypesCollections\GenericTypesCollections\obj\Debug\net8.0\GenericTypesCollections.genruntimeconfig.cache
+C:\Users\Nitro\Desktop\appa102\16-GenericTypesCollections\GenericTypesCollections\obj\Debug\net8.0\ref\GenericTypesCollections.dll

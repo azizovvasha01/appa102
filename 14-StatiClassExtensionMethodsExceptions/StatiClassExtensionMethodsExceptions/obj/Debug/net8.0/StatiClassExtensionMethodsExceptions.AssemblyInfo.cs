@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StatiClassExtensionMethodsExceptions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5350ebd2f5d3ec37fdf4d881a5f0bcd2767044cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8de87ad8f0768022d7daa974c20e0285fc691ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("StatiClassExtensionMethodsExceptions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StatiClassExtensionMethodsExceptions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
