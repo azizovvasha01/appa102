@@ -53,7 +53,7 @@ namespace GenericTypesCollections.GenericTypesCollections
         public void AddToWaitingQueue(string memberName)
         {
             WaitingQueue.Enqueue(memberName);
-            Console.WriteLine($"{memberName} növbəyə əlavə olundu");
+            Console.WriteLine($"{memberName} növbeye elave olundu");
         }
 
         public string ServeNextInQueue()
@@ -65,7 +65,7 @@ namespace GenericTypesCollections.GenericTypesCollections
         public void ReturnBook(Book book)
         {
             RecentlyReturned.Push(book);
-            Console.WriteLine($"Kitab qəbul edildi: {book.Title}");
+            Console.WriteLine($"Kitab qebul edildi: {book.Title}");
         }
 
         public Book GetLastReturnedBook()

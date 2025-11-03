@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Nitro\\Desktop\\appa102\\16-GenericTypesCollections\\GenericTypesCollections\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D3929C18-01AB-482A-9C71-A937CBEEDFF2}|GenericTypesCollections.csproj|c:\\users\\nitro\\desktop\\appa102\\16-generictypescollections\\generictypescollections\\generictypescollections\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3929C18-01AB-482A-9C71-A937CBEEDFF2}|GenericTypesCollections.csproj|solutionrelative:generictypescollections\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3929C18-01AB-482A-9C71-A937CBEEDFF2}|GenericTypesCollections.csproj|c:\\users\\nitro\\desktop\\appa102\\16-generictypescollections\\generictypescollections\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3929C18-01AB-482A-9C71-A937CBEEDFF2}|GenericTypesCollections.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D3929C18-01AB-482A-9C71-A937CBEEDFF2}|GenericTypesCollections.csproj|c:\\users\\nitro\\desktop\\appa102\\16-generictypescollections\\generictypescollections\\generictypescollections\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3929C18-01AB-482A-9C71-A937CBEEDFF2}|GenericTypesCollections.csproj|solutionrelative:generictypescollections\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3929C18-01AB-482A-9C71-A937CBEEDFF2}|GenericTypesCollections.csproj|c:\\users\\nitro\\desktop\\appa102\\16-generictypescollections\\generictypescollections\\generictypescollections\\librariy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3929C18-01AB-482A-9C71-A937CBEEDFF2}|GenericTypesCollections.csproj|solutionrelative:generictypescollections\\librariy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D3929C18-01AB-482A-9C71-A937CBEEDFF2}|GenericTypesCollections.csproj|c:\\users\\nitro\\desktop\\appa102\\16-generictypescollections\\generictypescollections\\generictypescollections\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D3929C18-01AB-482A-9C71-A937CBEEDFF2}|GenericTypesCollections.csproj|solutionrelative:generictypescollections\\bookmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D3929C18-01AB-482A-9C71-A937CBEEDFF2}|GenericTypesCollections.csproj|c:\\users\\nitro\\desktop\\appa102\\16-generictypescollections\\generictypescollections\\generictypescollections\\memmber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D3929C18-01AB-482A-9C71-A937CBEEDFF2}|GenericTypesCollections.csproj|solutionrelative:generictypescollections\\memmber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3929C18-01AB-482A-9C71-A937CBEEDFF2}|GenericTypesCollections.csproj|c:\\users\\nitro\\desktop\\appa102\\16-generictypescollections\\generictypescollections\\generictypescollections\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3929C18-01AB-482A-9C71-A937CBEEDFF2}|GenericTypesCollections.csproj|solutionrelative:generictypescollections\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3929C18-01AB-482A-9C71-A937CBEEDFF2}|GenericTypesCollections.csproj|c:\\users\\nitro\\desktop\\appa102\\16-generictypescollections\\generictypescollections\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3929C18-01AB-482A-9C71-A937CBEEDFF2}|GenericTypesCollections.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,63 +30,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "BookManager.cs",
               "DocumentMoniker": "C:\\Users\\Nitro\\Desktop\\appa102\\16-GenericTypesCollections\\GenericTypesCollections\\GenericTypesCollections\\BookManager.cs",
               "RelativeDocumentMoniker": "GenericTypesCollections\\BookManager.cs",
               "ToolTip": "C:\\Users\\Nitro\\Desktop\\appa102\\16-GenericTypesCollections\\GenericTypesCollections\\GenericTypesCollections\\BookManager.cs",
               "RelativeToolTip": "GenericTypesCollections\\BookManager.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAEoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAEMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T17:13:28.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Librariy.cs",
               "DocumentMoniker": "C:\\Users\\Nitro\\Desktop\\appa102\\16-GenericTypesCollections\\GenericTypesCollections\\GenericTypesCollections\\Librariy.cs",
               "RelativeDocumentMoniker": "GenericTypesCollections\\Librariy.cs",
               "ToolTip": "C:\\Users\\Nitro\\Desktop\\appa102\\16-GenericTypesCollections\\GenericTypesCollections\\GenericTypesCollections\\Librariy.cs",
               "RelativeToolTip": "GenericTypesCollections\\Librariy.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T17:13:06.679Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Memmber.cs",
               "DocumentMoniker": "C:\\Users\\Nitro\\Desktop\\appa102\\16-GenericTypesCollections\\GenericTypesCollections\\GenericTypesCollections\\Memmber.cs",
               "RelativeDocumentMoniker": "GenericTypesCollections\\Memmber.cs",
               "ToolTip": "C:\\Users\\Nitro\\Desktop\\appa102\\16-GenericTypesCollections\\GenericTypesCollections\\GenericTypesCollections\\Memmber.cs",
               "RelativeToolTip": "GenericTypesCollections\\Memmber.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T17:12:51.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\Nitro\\Desktop\\appa102\\16-GenericTypesCollections\\GenericTypesCollections\\GenericTypesCollections\\Book.cs",
               "RelativeDocumentMoniker": "GenericTypesCollections\\Book.cs",
               "ToolTip": "C:\\Users\\Nitro\\Desktop\\appa102\\16-GenericTypesCollections\\GenericTypesCollections\\GenericTypesCollections\\Book.cs",
               "RelativeToolTip": "GenericTypesCollections\\Book.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T17:12:26.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Nitro\\Desktop\\appa102\\16-GenericTypesCollections\\GenericTypesCollections\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
