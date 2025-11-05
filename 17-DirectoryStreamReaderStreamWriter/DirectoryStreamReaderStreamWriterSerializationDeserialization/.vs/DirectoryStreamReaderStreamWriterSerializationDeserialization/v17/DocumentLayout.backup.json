@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nitro\\Desktop\\appa102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\DirectoryStreamReaderStreamWriterSerializationDeserialization\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{929BB887-A074-41B7-AA64-9B7752EA3F22}|DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|c:\\users\\nitro\\desktop\\appa102\\17-directorystreamreaderstreamwriterserializationdeserialization\\directorystreamreaderstreamwriterserializationdeserialization\\directors\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{929BB887-A074-41B7-AA64-9B7752EA3F22}|DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|solutionrelative:directors\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{929BB887-A074-41B7-AA64-9B7752EA3F22}|DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|c:\\users\\nitro\\desktop\\appa102\\17-directorystreamreaderstreamwriterserializationdeserialization\\directorystreamreaderstreamwriterserializationdeserialization\\directors\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{929BB887-A074-41B7-AA64-9B7752EA3F22}|DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|solutionrelative:directors\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{929BB887-A074-41B7-AA64-9B7752EA3F22}|DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|c:\\users\\nitro\\desktop\\appa102\\17-directorystreamreaderstreamwriterserializationdeserialization\\directorystreamreaderstreamwriterserializationdeserialization\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{929BB887-A074-41B7-AA64-9B7752EA3F22}|DirectoryStreamReaderStreamWriterSerializationDeserialization.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\Desktop\\appa102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\DirectoryStreamReaderStreamWriterSerializationDeserialization\\Directors\\FileManager.cs",
+              "RelativeDocumentMoniker": "Directors\\FileManager.cs",
+              "ToolTip": "C:\\Users\\Nitro\\Desktop\\appa102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\DirectoryStreamReaderStreamWriterSerializationDeserialization\\Directors\\FileManager.cs",
+              "RelativeToolTip": "Directors\\FileManager.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAI4AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:56:18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\Desktop\\appa102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\DirectoryStreamReaderStreamWriterSerializationDeserialization\\Directors\\Student.cs",
+              "RelativeDocumentMoniker": "Directors\\Student.cs",
+              "ToolTip": "C:\\Users\\Nitro\\Desktop\\appa102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\DirectoryStreamReaderStreamWriterSerializationDeserialization\\Directors\\Student.cs*",
+              "RelativeToolTip": "Directors\\Student.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:55:45.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nitro\\Desktop\\appa102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\DirectoryStreamReaderStreamWriterSerializationDeserialization\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Nitro\\Desktop\\appa102\\17-DirectoryStreamReaderStreamWriterSerializationDeserialization\\DirectoryStreamReaderStreamWriterSerializationDeserialization\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:53:26.153Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
