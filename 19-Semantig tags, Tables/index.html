@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apa102</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 320px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 20px auto;
+        }
+        caption {
+            caption-side: top;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+        }
+        thead th {
+            background: #f2f2f2;
+        }
+        .note {
+            text-align: center;
+            font-size: 0.95rem;
+            font-style: italic;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+<table>
+    <caption>Product Info</caption>
+    <thead>
+        <tr>
+            <th scope="col">Product</th>
+            <th scope="col">Flavors</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row" rowspan="3">Milk</th>
+            <td>Almond</td>
+        </tr>
+        <tr>
+            <td>Mango</td>
+        </tr>
+        <tr>
+            <td>Chocolate</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2" class="note">Note: These are exclusive Flavors.</td>
+        </tr>
+</table>
+</body>
+</html>
+
+
+<table border="1" cellspacing="0" cellpadding="8">
+    <caption>A test table with merged cells</caption>
+    <tr>
+        <td rowspan="2"></td>
+        <th colspan="2">Average</th>
+        <th rowspan="2">Red</th>
+    </tr>
+    <tr>
+        <th>height</th>
+        <th>weight</th>
+    </tr>
+    <tr>
+        <th>Males</th>
+        <td>1.9</td>
+        <td>0.003</td>
+        <td>40%</td>
+    </tr>
+    <tr>
+        <th>Females</th>
+        <td>1.7</td>
+        <td>0.002</td>
+        <td>43%</td>
+    </tr>
+</table>
+
+
+<table border="1" cellspacing="0" cellpadding="8">
+    <tr>
+        
+        <th rowspan="6">section</th>
+
+       
+        <th rowspan="2">subsection 1</th>
+
+       
+        <td>text1</td>
+    </tr>
+
+    <tr>
+       
+        <td>text2</td>
+    </tr>
+
+    <tr>
+       
+        <td></td>
+        <td>text3</td>
+    </tr>
+ <tr>
+    
+        <th rowspan="1">subsection 2</th>
+        <td></td>
+    </tr>
+
+    <tr>
+        
+        <th rowspan="1">subsection 3</th>
+        <td></td>
+    </tr>
+</table>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        table, th, td {
+            border: 1px solid #444;
+            padding: 8px;
+            text-align: center;
+        }
+        caption {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .lunch {
+            font-weight: bold;
+            background: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <caption>Time Table</caption>
+
+    <tr>
+        <th rowspan="6">Hours</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+    </tr>
+
+    <tr>
+        <td>Computer</td>
+        <td>Maths</td>
+        <td>Computer</td>
+        <td>Maths</td>
+        <td>Arts</td>
+    </tr>
+
+    <tr>
+        <td>Computer</td>
+        <td>Maths</td>
+        <td>Computer</td>
+        <td>Maths</td>
+        <td>Arts</td>
+    </tr>
+
+    <tr class="lunch">
+        <td colspan="5">LUNCH</td>
+    </tr>
+
+    <tr>
+        <td>Computer</td>
+        <td>Maths</td>
+        <td>Computer</td>
+        <td>Maths</td>
+        <td>Project</td>
+    </tr>
+
+    <tr>
+        <td>Computer</td>
+        <td>Maths</td>
+        <td>Computer</td>
+        <td>Maths</td>
+        <td></td>
+    </tr>
+
+</table>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 700px;
+        }
+        td {
+            border: 2px solid green;
+            padding: 20px;
+            text-align: center;
+            font-size: 22px;
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td>A</td>
+        <td>B</td>
+        <td rowspan="2">D</td>
+        <td colspan="2">E</td>
+        <td>F</td>
+    </tr>
+
+    <tr>
+        <td colspan="2">C</td>
+        <td>G</td>
+        <td>H</td>
+        <td>I</td>
+    </tr>
+
+    <tr>
+        <td colspan="3">K</td>
+        <td>L</td>
+        <td colspan="2">M</td>
+    </tr>
+</table>
+
+</body>
+</html>
+
