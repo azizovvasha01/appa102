@@ -1,0 +1,22 @@
+@model List<Portfolio32_MVCIntro.Models.Student>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Student List";
+}
+<h1>Student List</h1>
+<table class="table table-bordered mt-3">
+    <thead class="table-dark">
+        <tr><th>Id</th><th>Name</th><th>Age</th><th>Details</th></tr>
+    </thead>
+    <tbody>
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.Id</td>
+            <td>@s.Name</td>
+            <td>@s.Age</td>
+            <td><a class="btn btn-sm btn-info" href="/Student/Details/@s.Id">View</a></td>
+        </tr>
+    }
+    </tbody>
+</table>
