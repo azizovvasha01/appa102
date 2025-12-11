@@ -9,6 +9,6 @@ namespace FrontToBackSqlConnection.Data
         {
         }
 
-        public DbSet<Student> Students { get; set; }
+        public DbSet<Student> Home { get; set; }
     }
 }

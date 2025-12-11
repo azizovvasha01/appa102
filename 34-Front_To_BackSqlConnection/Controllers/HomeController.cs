@@ -3,22 +3,23 @@ using System.Threading.Tasks;
 using FrontToBackSqlConnection.Data;
 using FrontToBackSqlConnection.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+
 
 namespace FrontToBackSqlConnection.Controllers
 {
-    public class StudentsController : Controller
+    public class HomeController : Controller
     {
         private readonly AppDbContext _context;
+        private object home;
 
-        public StudentsController(AppDbContext context)
+        public ActionResult(AppDbContext context)
         {
             _context = context;
         }
 
         public async Task<IActionResult> Index()
         {
-            var students = await _context.Students.ToListAsync();
+            var students = await _context.Home.ToListAsync();
             return View(students);
         }
 
@@ -27,7 +28,7 @@ namespace FrontToBackSqlConnection.Controllers
             if (id == null)
                 return NotFound();
 
-            var student = await _context.Students.FirstOrDefaultAsync(m => m.Id == id);
+            var student = await _context.Home.FirstOrDefaultAsync(m => m.Id == id);
             if (student == null)
                 return NotFound();
 
@@ -41,14 +42,19 @@ namespace FrontToBackSqlConnection.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Student student)
+        public async Task<IActionResult> Create()
         {
             if (!ModelState.IsValid)
-                return View(student);
+                return View(home);
 
-            _context.Add(student);
+            _context.Add(home);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        private IActionResult View(object home)
+        {
+            throw new NotImplementedException();
         }
 
         public async Task<IActionResult> Edit(int? id)
@@ -56,7 +62,7 @@ namespace FrontToBackSqlConnection.Controllers
             if (id == null)
                 return NotFound();
 
-            var student = await _context.Students.FindAsync(id);
+            var student = await _context.FindAsync(id);
             if (student == null)
                 return NotFound();
 
@@ -65,22 +71,22 @@ namespace FrontToBackSqlConnection.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Student student)
+        public async Task<IActionResult> Edit(int id, Student home)
         {
-            if (id != student.Id)
+            if (id != home.Id)
                 return NotFound();
 
             if (!ModelState.IsValid)
-                return View(student);
+                return View(home);
 
             try
             {
-                _context.Update(student);
+                _context.Update(home);
                 await _context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!_context.Students.Any(e => e.Id == student.Id))
+                if (!_context.Home.Any(e => e.Id == home.Id))
                     return NotFound();
                 else
                     throw;
@@ -94,7 +100,7 @@ namespace FrontToBackSqlConnection.Controllers
             if (id == null)
                 return NotFound();
 
-            var student = await _context.Students.FirstOrDefaultAsync(m => m.Id == id);
+            var student = await _context.Home.FirstOrDefaultAsync(m => m.Id == id);
             if (student == null)
                 return NotFound();
 
@@ -105,10 +111,10 @@ namespace FrontToBackSqlConnection.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var student = await _context.Students.FindAsync(id);
+            var student = await _context.Home.FindAsync(id);
             if (student != null)
             {
-                _context.Students.Remove(student);
+                _context.Home.Remove(student);
                 await _context.SaveChangesAsync();
             }
 
