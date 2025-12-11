@@ -1,7 +1,0 @@
-body { font-family: Arial; }
-form input, form select {
-    display: block;
-    margin-bottom: 10px;
-    width: 250px;
-    padding: 5px;
-}
