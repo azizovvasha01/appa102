@@ -1,0 +1,39 @@
+@model DynamicPropertiesViewModelApp.ViewModels.ProductViewModel
+@{
+    ViewData["Title"] = "Create Product";
+}
+
+<h2>Create Product</h2>
+
+@if (TempData["msg"] != null)
+{
+    <div style="padding:10px;background:#c8ffc8;margin-bottom:15px;">
+        @TempData["msg"]
+    </div>
+}
+
+<form method="post">
+    <label>Name:</label>
+    <input type="text" name="Product.Name" class="form-control" />
+
+    <label>Price:</label>
+    <input type="number" name="Product.Price" class="form-control" />
+
+    <label>Discount %:</label>
+    <input type="number" name="Product.DiscountPercent" class="form-control" />
+
+    <label>Category:</label>
+    <select name="Product.CategoryId" class="form-control">
+        @foreach (var c in Model.Categories)
+        {
+            <option value="@c.Id">@c.Name</option>
+        }
+    </select>
+
+    <button style="margin-top:15px;" type="submit">Create</button>
+</form>
+
+<hr />
+
+<h3>Dynamic Property Output:</h3>
+<p>@Model.FullInfo</p>
